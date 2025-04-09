@@ -78,7 +78,8 @@
                     <!-- Tombol tambah -->
                     <div class="mt-4">
                         <a href="{{ route('criteria.create') }}"
-                            class="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">+ Tambah
+                            class="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"><i
+                                class="bi bi-card-checklist"></i> Tambah
                             Kriteria</a>
                     </div>
                 </div>

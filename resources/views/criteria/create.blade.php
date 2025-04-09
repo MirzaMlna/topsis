@@ -51,7 +51,11 @@
                         <!-- Tombol Simpan -->
                         <div class="flex justify-end">
                             <button type="submit"
-                                class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-900">Simpan</button>
+                                class="mr-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-900">Simpan</button>
+                            <a href="{{ route('criteria.index') }}"
+                                class="inline-block px-4 py-2 bg-gray-300 text-gray-800 rounded hover:bg-gray-400">
+                                Batal
+                            </a>
                         </div>
                     </form>
 
