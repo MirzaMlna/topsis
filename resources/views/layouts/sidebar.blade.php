@@ -68,12 +68,22 @@
 
                 <a href="{{ route('home') }}" class="block px-4 py-2 rounded hover:bg-gray-200"><i class="bi bi-house">
                     </i>Beranda</a>
-                <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"> <i class="bi bi-card-checklist">
+                <a href="{{ route('criteria.index') }}" class="block px-4 py-2 rounded hover:bg-gray-200"> <i
+                        class="bi bi-card-checklist">
                     </i>Kriteria</a>
+                <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"> <i class="bi bi-person">
+                    </i>Alternatif</a>
+                <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"> <i class="bi bi-calculator">
+                    </i>Perhitungan</a>
+                <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"> <i class="bi bi-bar-chart-fill">
+                    </i>Ranking</a>
                 <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"><i class="bi bi-people">
-                    </i>Mahasiswa</a>
+                    </i>Pengguna</a>
                 <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"><i class="bi bi-file-text">
                     </i>Beasiswa</a>
+                <p class="block px-4 py-2 rounded font-bold">Fitur Developer</p>
+                <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"><i class="bi bi-file-text">
+                    </i>Role</a>
             </nav>
         </div>
     </aside>
