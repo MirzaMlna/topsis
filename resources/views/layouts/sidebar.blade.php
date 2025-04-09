@@ -66,10 +66,14 @@
                     </x-slot>
                 </x-dropdown>
 
-                <a href="{{ route('home') }}" class="block px-4 py-2 rounded hover:bg-gray-200">Beranda</a>
-                <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200">Beasiswa</a>
-                <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200">Mahasiswa</a>
-                <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200">Kriteria</a>
+                <a href="{{ route('home') }}" class="block px-4 py-2 rounded hover:bg-gray-200"><i class="bi bi-house">
+                    </i>Beranda</a>
+                <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"> <i class="bi bi-card-checklist">
+                    </i>Kriteria</a>
+                <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"><i class="bi bi-people">
+                    </i>Mahasiswa</a>
+                <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"><i class="bi bi-file-text">
+                    </i>Beasiswa</a>
             </nav>
         </div>
     </aside>
