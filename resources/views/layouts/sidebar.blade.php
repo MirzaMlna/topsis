@@ -35,6 +35,8 @@
 
             <!-- Menu -->
             <nav class="space-y-2">
+                <div class="block px-3 text-sm leading-4 font-medium rounded-md text-gray-500">{{ Auth::user()->role }}
+                </div>
                 <x-dropdown align="right" width="48">
                     <x-slot name="trigger">
                         <button
@@ -78,13 +80,13 @@
                     </i>Perhitungan</a>
                 <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"> <i class="bi bi-bar-chart-fill">
                     </i>Ranking</a>
-                <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"><i class="bi bi-people">
-                    </i>Pengguna</a>
                 <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"><i class="bi bi-file-text">
                     </i>Beasiswa</a>
                 <p class="block px-4 py-2 rounded font-bold">Fitur Developer</p>
                 <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"><i class="bi bi-file-text">
                     </i>Role</a>
+                <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"><i class="bi bi-people">
+                    </i>Pengguna</a>
             </nav>
         </div>
     </aside>
