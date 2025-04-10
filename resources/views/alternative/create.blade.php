@@ -10,37 +10,71 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
 
-                    <form action="{{ route('alternative.store') }}" method="POST">
-                        @csrf
-
+                    <form action="#" method="POST">
+                        <!-- Kode -->
                         <div class="mb-4">
-                            <label class="block text-gray-700 font-bold mb-2">Kode</label>
-                            <input type="text" name="kode" class="w-full border rounded px-3 py-2"
-                                placeholder="Contoh: TM1" required>
+                            <label for="kode" class="block text-sm font-bold text-gray-900">Kode Alternatif</label>
+                            <input type="text" id="kode" name="kode"
+                                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                                placeholder="">
                         </div>
 
+                        <!-- Nama Mahasiswa -->
                         <div class="mb-4">
-                            <label class="block text-gray-700 font-bold mb-2">Instansi</label>
-                            <input type="text" name="instansi" class="w-full border rounded px-3 py-2"
-                                placeholder="Contoh: PT Telkom Indonesia" required>
+                            <label for="nama" class="block text-sm font-bold text-gray-900">Nama Mahasiswa</label>
+                            <input type="text" id="nama" name="nama"
+                                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                                placeholder="">
                         </div>
 
+                        <!-- NIM -->
                         <div class="mb-4">
-                            <label class="block text-gray-700 font-bold mb-2">Bidang</label>
-                            <input type="text" name="bidang" class="w-full border rounded px-3 py-2"
-                                placeholder="Contoh: Teknologi Informasi" required>
+                            <label for="nim" class="block text-sm font-bold text-gray-900">NIM</label>
+                            <input type="text" id="nim" name="nim"
+                                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                                placeholder="">
                         </div>
 
+                        <!-- Program Studi -->
                         <div class="mb-4">
-                            <label class="block text-gray-700 font-bold mb-2">Alamat</label>
-                            <input type="text" name="alamat" class="w-full border rounded px-3 py-2"
-                                placeholder="Contoh: Jl. Merpati No.123, Bandung" required>
+                            <label for="study_program" class="block text-sm font-bold text-gray-900">Program
+                                Studi</label>
+                            <select id="study_program" name="study_program"
+                                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                                <option value="">Pilih Program Studi</option>
+                                <option value="Ilmu Komunikasi">Ilmu Komunikasi</option>
+                                <option value="Ilmu Administrasi Publik">Ilmu Administrasi Publik</option>
+                                <option value="Pendidikan Bahasa Inggris">Pendidikan Bahasa Inggris</option>
+                                <option value="Bimbingan dan Konseling">Bimbingan dan Konseling</option>
+                                <option value="Pendidikan Kimia">Pendidikan Kimia</option>
+                                <option value="Pendidikan Olahraga">Pendidikan Olahraga</option>
+                                <option value="Manajemen">Manajemen</option>
+                                <option value="Peternakan">Peternakan</option>
+                                <option value="Agribisnis">Agribisnis</option>
+                                <option value="Hukum Ekonomi Syari’ah">Hukum Ekonomi Syari’ah</option>
+                                <option value="Ekonomi Syari’ah">Ekonomi Syari’ah</option>
+                                <option value="Pendidikan Guru Madrasah Ibtidaiyah">Pendidikan Guru Madrasah Ibtidaiyah
+                                </option>
+                                <option value="Teknik Mesin">Teknik Mesin</option>
+                                <option value="Teknik Sipil">Teknik Sipil</option>
+                                <option value="Teknik Elektro">Teknik Elektro</option>
+                                <option value="Teknik Industri">Teknik Industri</option>
+                                <option value="Kesehatan Masyarakat">Kesehatan Masyarakat</option>
+                                <option value="Ilmu Hukum">Ilmu Hukum</option>
+                                <option value="Teknik Informatika">Teknik Informatika</option>
+                                <option value="Sistem Informasi">Sistem Informasi</option>
+                                <option value="Farmasi">Farmasi</option>
+                            </select>
                         </div>
 
+                        <!-- Tombol Simpan -->
                         <div class="flex justify-end">
-                            <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-                                Simpan
-                            </button>
+                            <button type="submit"
+                                class="mr-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-900">Simpan</button>
+                            <a href="{{ route('alternative.index') }}"
+                                class="inline-block px-4 py-2 bg-gray-300 text-gray-800 rounded hover:bg-gray-400">
+                                Batal
+                            </a>
                         </div>
                     </form>
 
