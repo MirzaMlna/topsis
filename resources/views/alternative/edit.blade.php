@@ -11,6 +11,14 @@
                 <div class="p-6 bg-white border-b border-gray-200">
 
                     <form action="#" method="POST">
+                        <!-- Kode -->
+                        <div class="mb-4">
+                            <label for="kode" class="block text-sm font-bold text-gray-900">Kode Alternatif</label>
+                            <input type="text" id="kode" name="kode"
+                                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                                placeholder="">
+                        </div>
+
                         <!-- Nama Mahasiswa -->
                         <div class="mb-4">
                             <label for="nama" class="block text-sm font-bold text-gray-900">Nama Mahasiswa</label>

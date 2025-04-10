@@ -22,8 +22,8 @@
                         <!-- Bobot -->
                         <div class="mb-4">
                             <label for="bobot" class="block text-sm font-bold text-gray-900">Bobot <span
-                                    class="font-normal text-gray-500">(0.1 s/d 1)</span></label>
-                            <input type="number" step="0.01" min="0" max="1" id="bobot"
+                                    class="font-normal text-gray-500">(1 s/d 5)</span></label>
+                            <input type="number" step="1" min="0" max="5" id="bobot"
                                 name="bobot"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
                                 placeholder="">

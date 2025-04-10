@@ -12,7 +12,8 @@
                     <table class="min-w-full divide-y divide-gray-200">
                         <thead class="bg-gray-100">
                             <tr>
-                                <th class="px-6 py-3 text-left text-md text-gray-900 font-bold uppercase">ID</th>
+                                <th class="px-6 py-3 text-left text-md text-gray-900 font-bold uppercase">No</th>
+                                <th class="px-6 py-3 text-left text-md text-gray-900 font-bold uppercase">Kode</th>
                                 <th class="px-6 py-3 text-left text-md text-gray-900 font-bold uppercase">Nama Mahasiswa
                                 </th>
                                 <th class="px-6 py-3 text-left text-md text-gray-900 font-bold uppercase">NIM</th>
@@ -24,6 +25,7 @@
                         <tbody class="bg-white divide-y divide-gray-200">
                             <tr>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">1</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">A1</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Ahmad Fauzi</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">2110510012</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Teknik Informatika</td>
@@ -34,6 +36,7 @@
                             </tr>
                             <tr>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">2</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">A2</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Siti Nurhaliza</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">2110510033</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Sistem Informasi</td>
@@ -44,6 +47,7 @@
                             </tr>
                             <tr>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">3</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">A3</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Muhammad Rizky</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">2110510045</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Teknik Elektro</td>

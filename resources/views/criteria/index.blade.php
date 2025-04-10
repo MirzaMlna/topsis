@@ -31,7 +31,7 @@
                             <tr>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">1</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">IPK</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">0.4</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">4</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Benefit</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Skala 4</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">
@@ -42,7 +42,7 @@
                             <tr>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">2</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Penghasilan Orang Tua</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">0.3</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">3</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Cost</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Juta</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">
@@ -53,7 +53,7 @@
                             <tr>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">3</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Jumlah Tanggungan</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">0.2</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">2</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Cost</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Orang</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">
@@ -64,7 +64,7 @@
                             <tr>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">4</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Prestasi Akademik</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">0.1</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">1</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Benefit</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Poin</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">
