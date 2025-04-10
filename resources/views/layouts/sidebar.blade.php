@@ -21,7 +21,7 @@
         <div class="h-full p-4">
             <!-- Header (Mobile) -->
             <div class="flex justify-between items-center mb-6 sm:hidden">
-                <h2 class="text-xl font-semibold">SPK BEASISWA</h2>
+                <h2 class="text-xl font-semibold">HMC Magang</h2>
                 <button @click="open = false" class="text-gray-700">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
@@ -31,7 +31,7 @@
             </div>
 
             <!-- Header (Desktop) -->
-            <h2 class="text-xl font-semibold mb-6 hidden sm:block">SPK BEASISWA</h2>
+            <h2 class="text-xl font-semibold mb-6 hidden sm:block">HMC Magang</h2>
 
             <!-- Menu -->
             <nav class="space-y-2">
@@ -73,6 +73,9 @@
                 <a href="{{ route('criteria.index') }}" class="block px-4 py-2 rounded hover:bg-gray-200"> <i
                         class="bi bi-card-checklist">
                     </i>Kriteria</a>
+                <a href="{{ route('criteria.index') }}" class="block px-4 py-2 rounded hover:bg-gray-200"> <i
+                        class="bi bi-ui-checks">
+                    </i>Sub Kriteria</a>
                 <a href="{{ route('alternative.index') }}" class="block px-4 py-2 rounded hover:bg-gray-200"> <i
                         class="bi bi-person">
                     </i>Alternatif</a>
@@ -80,8 +83,6 @@
                     </i>Perhitungan</a>
                 <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"> <i class="bi bi-bar-chart-fill">
                     </i>Ranking</a>
-                <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"><i class="bi bi-file-text">
-                    </i>Beasiswa</a>
                 <p class="block px-4 py-2 rounded font-bold">Fitur Developer</p>
                 <a href="#" class="block px-4 py-2 rounded hover:bg-gray-200"><i class="bi bi-file-text">
                     </i>Role</a>

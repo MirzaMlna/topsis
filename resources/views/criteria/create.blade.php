@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            Tambah Kriteria
+            Edit Kriteria Seleksi Magang
         </h2>
     </x-slot>
 
@@ -11,29 +11,35 @@
                 <div class="p-6 bg-white border-b border-gray-200">
 
                     <form action="#" method="POST">
+                        @csrf
+                        @method('PUT')
+
                         <!-- Nama Kriteria -->
                         <div class="mb-4">
-                            <label for="nama_kriteria" class="block text-sm font-bold text-gray-900">Kriteria</label>
+                            <label for="nama_kriteria" class="block text-sm font-bold text-gray-900">Nama
+                                Kriteria</label>
                             <input type="text" id="nama_kriteria" name="nama_kriteria"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                                placeholder="">
+                                placeholder="" required>
                         </div>
 
                         <!-- Bobot -->
                         <div class="mb-4">
                             <label for="bobot" class="block text-sm font-bold text-gray-900">Bobot <span
                                     class="font-normal text-gray-500">(1 s/d 5)</span></label>
-                            <input type="number" step="1" min="0" max="5" id="bobot"
+                            <input type="number" step="1" min="1" max="5" id="bobot"
                                 name="bobot"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                                placeholder="">
+                                placeholder="" required>
                         </div>
 
                         <!-- Tipe -->
                         <div class="mb-4">
-                            <label for="tipe" class="block text-sm font-bold text-gray-900">Tipe</label>
+                            <label for="tipe" class="block text-sm font-bold text-gray-900">Tipe <span
+                                    class="font-normal text-gray-500">(Benefit/Cost)</span></label>
                             <select id="tipe" name="tipe"
-                                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                                required>
                                 <option value="">Pilih Tipe</option>
                                 <option value="Benefit">Benefit</option>
                                 <option value="Cost">Cost</option>
@@ -45,17 +51,14 @@
                             <label for="satuan" class="block text-sm font-bold text-gray-900">Satuan</label>
                             <input type="text" id="satuan" name="satuan"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                                placeholder="">
+                                placeholder="" required>
                         </div>
 
                         <!-- Tombol Simpan -->
                         <div class="flex justify-end">
                             <button type="submit"
-                                class="mr-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-900">Simpan</button>
-                            <a href="{{ route('criteria.index') }}"
-                                class="inline-block px-4 py-2 bg-gray-300 text-gray-800 rounded hover:bg-gray-400">
-                                Batal
-                            </a>
+                                class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-900">Simpan
+                                Perubahan</button>
                         </div>
                     </form>
 
