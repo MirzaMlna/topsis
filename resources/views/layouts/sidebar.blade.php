@@ -73,7 +73,7 @@
                 <a href="{{ route('criteria.index') }}" class="block px-4 py-2 rounded hover:bg-gray-200"> <i
                         class="bi bi-card-checklist">
                     </i>Kriteria</a>
-                <a href="{{ route('criteria.index') }}" class="block px-4 py-2 rounded hover:bg-gray-200"> <i
+                <a href="{{ route('sub-criteria.index') }}" class="block px-4 py-2 rounded hover:bg-gray-200"> <i
                         class="bi bi-ui-checks">
                     </i>Sub Kriteria</a>
                 <a href="{{ route('alternative.index') }}" class="block px-4 py-2 rounded hover:bg-gray-200"> <i

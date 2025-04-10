@@ -3,6 +3,7 @@
 use App\Http\Controllers\AlternativeController;
 use App\Http\Controllers\CriteriaController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\SubCriteriaController;
 use Illuminate\Support\Facades\Route;
 use Symfony\Component\Mime\Part\Multipart\AlternativePart;
 
@@ -19,6 +20,7 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::resource('criteria', CriteriaController::class);
+    Route::resource('sub-criteria', SubCriteriaController::class);
     Route::resource('alternative', AlternativeController::class);
 });
 
