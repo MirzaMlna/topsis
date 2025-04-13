@@ -14,7 +14,7 @@
         <header class="absolute inset-x-0 top-0 z-50">
             <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div class="flex lg:flex-1">
-                    <p>HMC Magang</p>
+                    <p>Endorse Rank</p>
                 </div>
                 {{-- <div class="flex lg:hidden">
                     <button type="button"
@@ -90,15 +90,14 @@
         </div>
         <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div class="text-center">
-                <h1 class="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">Sistem
-                    Pendukung Keputusan Magang</h1>
+                <h1 class="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">
+                    ENDORSE RANK</h1>
                 <p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
                     Aplikasi ini merupakan Sistem Pendukung Keputusan menggunakan metode <i>TOPSIS (Technique for
-                        Order Preference by Similarity to Ideal Solution)</i>
-                    untuk membantu
-                    pemilihan calon mahasiswa magang pada Haji Muhidin Company secara objektif, akurat, dan transparan.
+                        Order Preference by Similarity to Ideal Solution)</i> untuk membantu pemilihan influencer
+                    terbaik
+                    secara objektif, akurat, dan transparan dalam mengiklankan produk perusahaan.
                 </p>
-
 
                 <div class="mt-5 flex items-center justify-center gap-x-6">
                     <a href="{{ route('login') }}"

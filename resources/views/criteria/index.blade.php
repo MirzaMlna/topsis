@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            Kriteria Seleksi Magang
+            Kriteria Seleksi Influencer
         </h2>
     </x-slot>
 
@@ -23,10 +23,10 @@
                         <tbody class="bg-white divide-y divide-gray-200">
                             <tr>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">1</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">IPK</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Jumlah Followers</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">3</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Benefit</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Skala 4</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Orang</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">
                                     <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
                                     <a href="#" class="text-red-600 hover:text-red-900 ml-2">Hapus</a>
@@ -34,7 +34,18 @@
                             </tr>
                             <tr>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">2</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Keterampilan Teknis</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Engagement Rate</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">5</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Benefit</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">%</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">
+                                    <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                                    <a href="#" class="text-red-600 hover:text-red-900 ml-2">Hapus</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">3</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Relevansi Konten</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">4</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Benefit</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Poin</td>
@@ -44,20 +55,8 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">3</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Pengalaman</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">5</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Benefit</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Poin</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">
-                                    <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                                    <a href="#" class="text-red-600 hover:text-red-900 ml-2">Hapus</a>
-                                </td>
-                            </tr>
-                            <tr>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">4</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Kesesuaian Bidang yang
-                                    Diperlukan</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Kualitas Konten</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">3</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Benefit</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Poin</td>
@@ -68,10 +67,21 @@
                             </tr>
                             <tr>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">5</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Hasil Wawancara</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Audience Demografi</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">2</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Benefit</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Poin</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">
+                                    <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                                    <a href="#" class="text-red-600 hover:text-red-900 ml-2">Hapus</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">6</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Biaya</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">4</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Cost</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Rupiah</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">
                                     <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
                                     <a href="#" class="text-red-600 hover:text-red-900 ml-2">Hapus</a>

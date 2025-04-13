@@ -20,7 +20,7 @@
                                 Kriteria</label>
                             <input type="text" id="nama_kriteria" name="nama_kriteria"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                                placeholder="Contoh: IPK, Keterampilan Teknis, Motivasi Magang" required>
+                                placeholder="" required>
                         </div>
 
                         <!-- Bobot -->
@@ -30,17 +30,17 @@
                             <input type="number" step="1" min="1" max="5" id="bobot"
                                 name="bobot"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                                placeholder="Contoh: 3" required>
+                                placeholder="" required>
                         </div>
 
                         <!-- Tipe -->
                         <div class="mb-4">
-                            <label for="tipe" class="block text-sm font-bold text-gray-900">Tipe</label>
+                            <label for="tipe" class="block text-sm font-bold text-gray-900">Tipe <span
+                                    class="font-normal text-gray-500">(Benefit/Cost)</span></label>
                             <select id="tipe" name="tipe"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
                                 required>
-                                <option value="">Pilih Tipe <span
-                                        class="font-normal text-gray-500">(Benefit/Cost)</span></option>
+                                <option value="">Pilih Tipe</option>
                                 <option value="Benefit">Benefit</option>
                                 <option value="Cost">Cost</option>
                             </select>
@@ -51,14 +51,26 @@
                             <label for="satuan" class="block text-sm font-bold text-gray-900">Satuan</label>
                             <input type="text" id="satuan" name="satuan"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                                placeholder="Contoh: Skala 4, Tahun, Poin" required>
+                                placeholder="" required>
                         </div>
 
-                        <!-- Tombol Simpan -->
-                        <div class="flex justify-end">
-                            <button type="submit"
-                                class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-900">Simpan
-                                Perubahan</button>
+                        <!-- Keterangan -->
+                        <div class="mb-4">
+                            <label for="keterangan" class="block text-sm font-bold text-gray-900">Keterangan</label>
+                            <input type="text" id="keterangan" name="keterangan"
+                                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                                placeholder="" required>
+                        </div>
+
+                        <!-- Tombol Submit -->
+                        <div class="mt-4">
+                            <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+                                Simpan
+                            </button>
+                            <a href="{{ route('criteria.index') }}"
+                                class="ml-2 inline-block px-4 py-2 bg-gray-300 text-gray-800 rounded hover:bg-gray-400">
+                                Batal
+                            </a>
                         </div>
                     </form>
 

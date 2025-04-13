@@ -15,32 +15,34 @@
 
                         <!-- Kode -->
                         <div class="mb-4">
-                            <label for="kode" class="block text-sm font-bold text-gray-900">Kode Alternatif</label>
+                            <label for="kode" class="block text-sm font-bold text-gray-900">Kode Alternatif <span
+                                    class="font-normal text-gray-500">(Contoh : ALT001)</span></label>
                             <input type="text" id="kode" name="kode"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
                                 placeholder="">
                         </div>
 
-                        <!-- Nama Lengkap -->
+                        <!-- Nama Medsos -->
                         <div class="mb-4">
-                            <label for="nama" class="block text-sm font-bold text-gray-900">Nama Lengkap</label>
-                            <input type="text" id="nama" name="nama"
+                            <label for="nama_medsos" class="block text-sm font-bold text-gray-900">Nama Medsos</label>
+                            <input type="text" id="nama_medsos" name="nama_medsos"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
                                 placeholder="">
                         </div>
 
-                        <!-- Program Studi -->
+                        <!-- Medsos yang Dipakai -->
                         <div class="mb-4">
-                            <label for="prodi" class="block text-sm font-bold text-gray-900">Program Studi</label>
-                            <input type="text" id="prodi" name="prodi"
+                            <label for="medsos_dipakai" class="block text-sm font-bold text-gray-900">Medsos yang
+                                Dipakai</label>
+                            <input type="text" id="medsos_dipakai" name="medsos_dipakai"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                                placeholder="Contoh: Teknik Informatika">
+                                placeholder="">
                         </div>
 
-                        <!-- Universitas -->
+                        <!-- Biaya per Konten -->
                         <div class="mb-4">
-                            <label for="universitas" class="block text-sm font-bold text-gray-900">Universitas</label>
-                            <input type="text" id="universitas" name="universitas"
+                            <label for="biaya" class="block text-sm font-bold text-gray-900">Biaya per Konten</label>
+                            <input type="number" min="0" step="100000" id="biaya" name="biaya"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
                                 placeholder="">
                         </div>
@@ -49,14 +51,6 @@
                         <div class="mb-4">
                             <label for="kontak" class="block text-sm font-bold text-gray-900">Kontak</label>
                             <input type="text" id="kontak" name="kontak"
-                                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                                placeholder="">
-                        </div>
-
-                        <!-- Alamat -->
-                        <div class="mb-4">
-                            <label for="alamat" class="block text-sm font-bold text-gray-900">Alamat</label>
-                            <input type="text" id="alamat" name="alamat"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
                                 placeholder="">
                         </div>

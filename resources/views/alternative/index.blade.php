@@ -14,14 +14,15 @@
                             <tr>
                                 <th class="px-6 py-3 text-left text-xs text-gray-900 font-bold uppercase">No</th>
                                 <th class="px-6 py-3 text-left text-xs text-gray-900 font-bold uppercase">Kode</th>
-                                <th class="px-6 py-3 text-left text-xs text-gray-900 font-bold uppercase">Nama Lengkap
+                                <th class="px-6 py-3 text-left text-xs text-gray-900 font-bold uppercase">Nama Medsos
                                 </th>
-                                <th class="px-6 py-3 text-left text-xs text-gray-900 font-bold uppercase">Program Studi
+                                <th class="px-6 py-3 text-left text-xs text-gray-900 font-bold uppercase">Medsos yang
+                                    Dipakai
                                 </th>
-                                <th class="px-6 py-3 text-left text-xs text-gray-900 font-bold uppercase">Universitas
+                                <th class="px-6 py-3 text-left text-xs text-gray-900 font-bold uppercase">Biaya per
+                                    Konten
                                 </th>
                                 <th class="px-6 py-3 text-left text-xs text-gray-900 font-bold uppercase">Kontak</th>
-                                <th class="px-6 py-3 text-left text-xs text-gray-900 font-bold uppercase">Alamat</th>
                                 <th class="px-6 py-3 text-left text-xs text-gray-900 font-bold uppercase">Aksi</th>
                             </tr>
                         </thead>
@@ -29,42 +30,16 @@
                             <tr>
                                 <td class="px-6 py-4">1</td>
                                 <td class="px-6 py-4">ALT001</td>
-                                <td class="px-6 py-4">Ahmad Rizky</td>
-                                <td class="px-6 py-4">Teknik Informatika</td>
-                                <td class="px-6 py-4">Universitas Lambung Mangkurat</td>
-                                <td class="px-6 py-4">081234567890</td>
-                                <td class="px-6 py-4">Banjarmasin</td>
+                                <td class="px-6 py-4">@mirza_mlna</td>
+                                <td class="px-6 py-4">Instagram</td>
+                                <td class="px-6 py-4">5.000.000</td>
+                                <td class="px-6 py-4">085814313224</td>
                                 <td class="px-6 py-4">
                                     <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
                                     <a href="#" class="text-red-600 hover:text-red-900 ml-2">Hapus</a>
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="px-6 py-4">2</td>
-                                <td class="px-6 py-4">ALT002</td>
-                                <td class="px-6 py-4">Nabila Putri</td>
-                                <td class="px-6 py-4">Manajemen</td>
-                                <td class="px-6 py-4">Universitas Muhammadiyah</td>
-                                <td class="px-6 py-4">082345678901</td>
-                                <td class="px-6 py-4">Banjarbaru</td>
-                                <td class="px-6 py-4">
-                                    <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                                    <a href="#" class="text-red-600 hover:text-red-900 ml-2">Hapus</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4">3</td>
-                                <td class="px-6 py-4">ALT003</td>
-                                <td class="px-6 py-4">Rizal Fahmi</td>
-                                <td class="px-6 py-4">Teknik Elektro</td>
-                                <td class="px-6 py-4">Politeknik Negeri Banjarmasin</td>
-                                <td class="px-6 py-4">083456789012</td>
-                                <td class="px-6 py-4">Martapura</td>
-                                <td class="px-6 py-4">
-                                    <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                                    <a href="#" class="text-red-600 hover:text-red-900 ml-2">Hapus</a>
-                                </td>
-                            </tr>
+
                         </tbody>
                     </table>
 

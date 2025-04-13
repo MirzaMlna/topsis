@@ -1,6 +1,6 @@
 <div x-data="{ open: false }" class="sm:relative">
     <!-- Tombol Toggle Sidebar (Mobile) -->
-    <div class="sm:hidden p-4 bg-white">
+    <div class="sm:hidden p-4 bg-white shadow">
         <button @click="open = true" class="text-gray-900 mt-2.5">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
@@ -21,7 +21,7 @@
         <div class="h-full p-4">
             <!-- Header (Mobile) -->
             <div class="flex justify-between items-center mb-6 sm:hidden">
-                <h2 class="text-xl font-semibold">HMC Magang</h2>
+                <h2 class="text-xl font-semibold">ENDORSE RANK</h2>
                 <button @click="open = false" class="text-gray-700">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
@@ -31,7 +31,7 @@
             </div>
 
             <!-- Header (Desktop) -->
-            <h2 class="text-xl font-semibold mb-6 hidden sm:block">HMC Magang</h2>
+            <h2 class="text-xl font-semibold mb-6 hidden sm:block">ENDORSE RANK</h2>
 
             <!-- Menu -->
             <nav class="space-y-2">
