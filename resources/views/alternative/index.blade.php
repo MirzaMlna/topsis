@@ -27,23 +27,30 @@
                             </tr>
                         </thead>
                         <tbody class="bg-white divide-y divide-gray-200">
-                            <tr>
-                                <td class="px-6 py-4">1</td>
-                                <td class="px-6 py-4">ALT001</td>
-                                <td class="px-6 py-4">@mirza_mlna</td>
-                                <td class="px-6 py-4">Instagram</td>
-                                <td class="px-6 py-4">5.000.000</td>
-                                <td class="px-6 py-4">085814313224</td>
-                                <td class="px-6 py-4">
-                                    <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                                    <a href="#" class="text-red-600 hover:text-red-900 ml-2">Hapus</a>
-                                </td>
-                            </tr>
-
+                            @foreach ($alternatives as $index => $alternative)
+                                <tr>
+                                    <td class="px-6 py-4">{{ $index + 1 }}</td>
+                                    <td class="px-6 py-4">{{ $alternative->code }}</td>
+                                    <td class="px-6 py-4">{{ $alternative->social_media_name }}</td>
+                                    <td class="px-6 py-4">{{ $alternative->social_media_platform }}</td>
+                                    <td class="px-6 py-4">{{ $alternative->cost_per_content }}</td>
+                                    <td class="px-6 py-4">{{ $alternative->contact }}</td>
+                                    <td class="px-6 py-4">
+                                        <a href="{{ route('alternative.edit', $alternative->id) }}"
+                                            class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                                        <form action="{{ route('alternative.destroy', $alternative->id) }}"
+                                            method="POST" class="inline-block">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button type="submit" class="text-red-600 hover:text-red-900 ml-2"
+                                                onclick="return confirm('Apakah Anda yakin ingin menghapus?')">Hapus</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            @endforeach
                         </tbody>
                     </table>
 
-                    <!-- Tombol tambah -->
                     <div class="mt-4">
                         <a href="{{ route('alternative.create') }}"
                             class="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
