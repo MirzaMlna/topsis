@@ -34,15 +34,13 @@ class CriteriaController extends Controller
      */
     public function store(Request $request)
     {
-        // Validate the input data
         $request->validate([
             'name' => 'required|unique:criterias,name',
-            'type' => 'required|in:benefit,cost',
-            'weight' => 'required|numeric|min:0|max:1',
+            'type' => 'required|in:Benefit,Cost',
+            'weight' => 'required|numeric|min:1|max:5',
             'unit' => 'required',
         ]);
 
-        // Create a new criteria in the database
         Criteria::create($request->all());
 
         // Redirect to the index page with a success message
@@ -80,11 +78,14 @@ class CriteriaController extends Controller
     {
         // Validate the input data
         $request->validate([
-            'name' => 'required|unique:criterias,name,' . $id, // Ensure name is unique, except for the current ID
-            'type' => 'required|in:benefit,cost',
-            'weight' => 'required|numeric|min:0|max:1',
+            'name' => 'required|unique:criterias,name,' . $id,
+            'type' => 'required|in:Benefit,Cost',
+            'weight' => 'required|numeric|min:1|max:5',
             'unit' => 'required',
         ]);
+
+        // Untuk debug bisa dd($request->all());
+        // dd($request->all());
 
         // Update the criteria in the database
         $criteria = Criteria::findOrFail($id);
@@ -93,6 +94,7 @@ class CriteriaController extends Controller
         // Redirect to the index page with a success message
         return redirect()->route('criteria.index')->with('success', 'Criteria berhasil diupdate.');
     }
+
 
     /**
      * Remove the specified resource from storage.

@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            Edit Kriteria Seleksi Magang
+            Tambah Kriteria
         </h2>
     </x-slot>
 
@@ -9,35 +9,30 @@
         <div class="mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
-
-                    <form action="#" method="POST">
+                    <form action="{{ route('criteria.store') }}" method="POST">
                         @csrf
-                        @method('PUT')
 
-                        <!-- Nama Kriteria -->
                         <div class="mb-4">
-                            <label for="nama_kriteria" class="block text-sm font-bold text-gray-900">Nama
+                            <label for="name" class="block text-sm font-bold text-gray-900">Nama
                                 Kriteria</label>
-                            <input type="text" id="nama_kriteria" name="nama_kriteria"
+                            <input type="text" id="name" name="name"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                                placeholder="" required>
+                                placeholder="Masukkan Nama Kriteria" required>
                         </div>
 
-                        <!-- Bobot -->
                         <div class="mb-4">
-                            <label for="bobot" class="block text-sm font-bold text-gray-900">Bobot <span
+                            <label for="weight" class="block text-sm font-bold text-gray-900">Bobot <span
                                     class="font-normal text-gray-500">(1 s/d 5)</span></label>
-                            <input type="number" step="1" min="1" max="5" id="bobot"
-                                name="bobot"
+                            <input type="number" step="1" min="1" max="5" id="weight"
+                                name="weight"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                                placeholder="" required>
+                                placeholder="Masukkan Bobot (1-5)" required>
                         </div>
 
-                        <!-- Tipe -->
                         <div class="mb-4">
-                            <label for="tipe" class="block text-sm font-bold text-gray-900">Tipe <span
+                            <label for="type" class="block text-sm font-bold text-gray-900">Tipe <span
                                     class="font-normal text-gray-500">(Benefit/Cost)</span></label>
-                            <select id="tipe" name="tipe"
+                            <select id="type" name="type"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
                                 required>
                                 <option value="">Pilih Tipe</option>
@@ -46,23 +41,13 @@
                             </select>
                         </div>
 
-                        <!-- Satuan -->
                         <div class="mb-4">
-                            <label for="satuan" class="block text-sm font-bold text-gray-900">Satuan</label>
-                            <input type="text" id="satuan" name="satuan"
+                            <label for="unit" class="block text-sm font-bold text-gray-900">Satuan</label>
+                            <input type="text" id="unit" name="unit"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                                placeholder="" required>
+                                placeholder="Masukkan Satuan" required>
                         </div>
 
-                        <!-- Keterangan -->
-                        <div class="mb-4">
-                            <label for="keterangan" class="block text-sm font-bold text-gray-900">Keterangan</label>
-                            <input type="text" id="keterangan" name="keterangan"
-                                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                                placeholder="" required>
-                        </div>
-
-                        <!-- Tombol Submit -->
                         <div class="mt-4">
                             <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
                                 Simpan
@@ -73,7 +58,6 @@
                             </a>
                         </div>
                     </form>
-
                 </div>
             </div>
         </div>

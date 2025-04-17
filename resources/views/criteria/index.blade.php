@@ -12,7 +12,7 @@
                     <table class="min-w-full divide-y divide-gray-200">
                         <thead class="bg-gray-100">
                             <tr>
-                                <th class="px-6 py-3 text-left text-md text-gray-900 font-bold uppercase">ID</th>
+                                <th class="px-6 py-3 text-left text-md text-gray-900 font-bold uppercase">No</th>
                                 <th class="px-6 py-3 text-left text-md text-gray-900 font-bold uppercase">Kriteria</th>
                                 <th class="px-6 py-3 text-left text-md text-gray-900 font-bold uppercase">Bobot</th>
                                 <th class="px-6 py-3 text-left text-md text-gray-900 font-bold uppercase">Tipe</th>
@@ -21,76 +21,35 @@
                             </tr>
                         </thead>
                         <tbody class="bg-white divide-y divide-gray-200">
-                            <tr>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">1</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Jumlah Followers</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">3</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Benefit</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Orang</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">
-                                    <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                                    <a href="#" class="text-red-600 hover:text-red-900 ml-2">Hapus</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">2</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Engagement Rate</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">5</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Benefit</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">%</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">
-                                    <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                                    <a href="#" class="text-red-600 hover:text-red-900 ml-2">Hapus</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">3</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Relevansi Konten</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">4</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Benefit</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Poin</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">
-                                    <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                                    <a href="#" class="text-red-600 hover:text-red-900 ml-2">Hapus</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">4</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Kualitas Konten</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">3</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Benefit</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Poin</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">
-                                    <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                                    <a href="#" class="text-red-600 hover:text-red-900 ml-2">Hapus</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">5</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Audience Demografi</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">2</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Benefit</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Poin</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">
-                                    <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                                    <a href="#" class="text-red-600 hover:text-red-900 ml-2">Hapus</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">6</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Biaya</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">4</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Cost</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">Rupiah</td>
-                                <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">
-                                    <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                                    <a href="#" class="text-red-600 hover:text-red-900 ml-2">Hapus</a>
-                                </td>
-                            </tr>
+                            @foreach ($criteria as $index => $item)
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">{{ $index + 1 }}
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">{{ $item->name }}
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">{{ $item->weight }}
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">{{ $item->type }}
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">{{ $item->unit }}
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-md text-gray-900">
+                                        <a href="{{ route('criteria.edit', $item->id) }}"
+                                            class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                                        <form action="{{ route('criteria.destroy', $item->id) }}" method="POST"
+                                            class="inline-block">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button type="submit" class="text-red-600 hover:text-red-900 ml-2"
+                                                onclick="return confirm('Apakah Anda yakin ingin menghapus?')">Hapus</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            @endforeach
                         </tbody>
                     </table>
 
-                    <!-- Tombol tambah -->
+
                     <div class="mt-4">
                         <a href="{{ route('criteria.create') }}"
                             class="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
