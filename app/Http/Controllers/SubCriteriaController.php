@@ -15,9 +15,10 @@ class SubCriteriaController extends Controller
     {
         // Fetch all sub-criteria from the database
         $subCriteria = SubCriteria::with('criteria')->get(); // Eager load the related criteria
+        $criteria = \App\Models\Criteria::all();
 
         // Pass the sub-criteria data to the view
-        return view('sub-criteria.index', compact('subCriteria'));
+        return view('sub-criteria.index', compact('subCriteria', 'criteria'));
     }
 
     /**
@@ -38,9 +39,10 @@ class SubCriteriaController extends Controller
         // Validate the input data
         $request->validate([
             'criteria_id' => 'required|exists:criterias,id',
-            'sub_criteria' => 'required',
-            'value' => 'required|integer',
+            'sub_criteria' => 'required|string|max:255',
+            'weight' => 'required|integer',
         ]);
+
 
         // Create a new sub-criteria in the database
         SubCriteria::create($request->all());
@@ -82,9 +84,10 @@ class SubCriteriaController extends Controller
         // Validate the input data
         $request->validate([
             'criteria_id' => 'required|exists:criterias,id',
-            'sub_criteria' => 'required',
-            'value' => 'required|integer',
+            'sub_criteria' => 'required|string|max:255',
+            'weight' => 'required|integer',
         ]);
+
 
         // Update the sub-criteria in the database
         $subCriteria = SubCriteria::findOrFail($id);

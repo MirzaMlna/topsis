@@ -36,7 +36,7 @@ class SubCriteria extends Model
     protected $fillable = [
         'criteria_id',
         'sub_criteria',
-        'value',
+        'weight',
     ];
 
     /**

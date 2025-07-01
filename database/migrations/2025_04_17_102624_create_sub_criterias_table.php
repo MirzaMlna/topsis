@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('criteria_id')->constrained()->onDelete('cascade');
             $table->string('sub_criteria');
-            $table->integer('value');
+            $table->integer('weight');
             $table->timestamps();
         });
     }
